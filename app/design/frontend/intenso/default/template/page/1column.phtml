@@ -15,27 +15,34 @@
 ?>
 <!doctype html>
 <html lang="<?php echo $this->getLang() ?>" class="no-js">
-<head>
-<?php echo $this->getChildHtml('head') ?>
-</head>
-<body<?php echo $this->getBodyClass()?' class="'.$this->getBodyClass(). Mage::helper('itactica_intenso')->getStoreClass() . ' ' . Mage::helper('itactica_intenso')->formFieldsType() .'"':'' ?>>
-<?php echo $this->getChildHtml('after_body_start') ?>
-<div class="off-canvas-wrap">
-    <div class="inner-wrap">
-        <?php echo $this->getChildHtml('global_notices') ?>
-        <?php echo $this->getChildHtml('header') ?>
-        <?php echo $this->getChildHtml('breadcrumbs') ?>
-        <?php echo $this->getChildHtml('global_messages') ?>
-        <?php echo $this->getChildHtml('content') ?>
-        <?php echo $this->getChildHtml('footer_before') ?>
-        <?php echo $this->getChildHtml('footer') ?>
-        <?php echo $this->getChildHtml('global_cookie_notice') ?>
-        <?php echo $this->getAbsoluteFooter() ?>
-        <a class="exit-off-canvas"></a>
-    </div><!-- /inner-wrap -->
-</div><!-- /off-canvas-wrap -->
-<?php echo $this->getChildHtml('before_body_end') ?>
-<div class="loading-bar"></div>
-</body>
+    <head>
+        <?php echo $this->getChildHtml('head') ?>
+        <meta property="og:title" content="Know more about The Mid Night Gifts">
+        <meta property="og:description" content="The Mid Night Gifts aims to satisfy his customer at his best. Provide the 5 star rated services to each of its customers">
+        <meta property="og:image" content="http://www.themidnightgifts.com/skin/frontend/intenso/default/images/create_thumb.png">
+        <meta property="og:image:width" content="300">
+        <meta property="og:image:height" content="300">
+        <meta property="og:site_name" content="GiftJaipur">
+        <meta property="og:url" content="http://www.themidnightgifts.com/the-mid-night-gifts-and-cakes-delivery-store-jaipur">
+        <meta property="og:type" content="website">
+    </head>
+    <body<?php echo $this->getBodyClass() ? ' class="' . $this->getBodyClass() . Mage::helper('itactica_intenso')->getStoreClass() . ' ' . Mage::helper('itactica_intenso')->formFieldsType() . '"' : '' ?>>
+        <?php echo $this->getChildHtml('after_body_start') ?>
+        <div class="off-canvas-wrap">
+            <div class="inner-wrap">
+                <?php echo $this->getChildHtml('global_notices') ?>
+                <?php echo $this->getChildHtml('header') ?>
+                <?php echo $this->getChildHtml('breadcrumbs') ?>
+                <?php echo $this->getChildHtml('global_messages') ?>
+                <?php echo $this->getChildHtml('content') ?>
+                <?php echo $this->getChildHtml('footer_before') ?>
+                <?php echo $this->getChildHtml('footer') ?>
+                <?php echo $this->getChildHtml('global_cookie_notice') ?>
+                <?php echo $this->getAbsoluteFooter() ?>
+                <a class="exit-off-canvas"></a>
+            </div><!-- /inner-wrap -->
+        </div><!-- /off-canvas-wrap -->
+        <?php echo $this->getChildHtml('before_body_end') ?>
+        <div class="loading-bar"></div>
+    </body>
 </html>
-

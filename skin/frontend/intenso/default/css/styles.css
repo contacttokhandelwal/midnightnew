@@ -2058,10 +2058,10 @@ dialog, .reveal-modal {
 .main-header .top-header {
 	z-index: 1001;
 }
-.main-logo,
+/*.main-logo,
 .main-logo-small {
 	margin: 33px 0 0 0;
-}
+}*/
 .main-logo-small,
 .main-logo-sticky {
 	display: none;
