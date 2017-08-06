@@ -72,7 +72,7 @@ class Mage_Catalog_Block_Category_View extends Mage_Core_Block_Template
 
     public function IsTopCategory()
     {
-        return $this->getCurrentCategory()->getLevel()==2;
+        return 0;// $this->getCurrentCategory()->getLevel()==2;
     }
 
     public function getRssLink()

@@ -1,0 +1,39 @@
+<div class="row text-box-5986d8215d3fb text-box-with-icon" style="background-color: #ffffff; padding-top: 50px; padding-bottom: 90px;">
+    <h3>
+        Customer Reviews
+    </h3>
+    <?php
+    $collection = Mage::getModel('review/review')->getCollection()
+              ->setPageSize(3)
+            ->addStoreFilter(Mage::app()->getStore()->getId())
+            // ->addStatusFilter(Mage_Review_Model_Review::STATUS_APPROVED)
+            ->addRateVotes()
+            ->setDateOrder();
+    $collection->getSelect()->limit(3);
+     $collection = array_reverse($collection->getItems());
+    foreach ($collection as $_review):
+        $cust = Mage::getModel('customer/customer')->load($_review->getCustomerId());
+        $img = $this->getBaseUrl() . 'media/customer' . $cust->getSstechProfileimage();
+        ?>
+        <section class="small-12 medium-4 columns box-1">
+<!--            <span aria-hidden="true" class="icon-bullhorn icon-circle" 
+                  style="color: #27ccc0; font-size: 25px; line-height: 37px; border-color: #27ccc0; width: 42px; height: 42px">
+
+            </span>-->
+            <img height="100" width="100" src="<?php echo $img; ?>" alt="the mid night gifts">
+            <h4 style="color: #000000; font-style: normal; font-weight: 300; font-size: 23px;">
+                <?php echo $_review->getTitle(); ?></h4>
+            <p class="textbox-text" style="color: #5b6064;  line-height: 26px; font-size: 17px;">
+                <?php echo $_review->getDetail() ?>
+            </p>
+            <p>
+                <?php
+                $_review->getRatingVotes();
+               echo $cust->getName().'<br>'; echo $this->formatDate($_review->getCreatedAt())
+                ?>
+            </p>
+        </section>
+        <?php
+    endforeach;
+    ?>
+</div>
