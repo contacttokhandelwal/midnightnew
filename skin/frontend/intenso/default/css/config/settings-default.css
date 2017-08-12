@@ -19,7 +19,7 @@
  * System > Configuration > Theme Setup > Custom CSS
  */
 /**
- * Created: 8/6/17, 1:57 PM 
+ * Created: 8/12/17, 11:12 AM 
  */
 
 
@@ -492,7 +492,7 @@ button.ghost.light:hover, .button.ghost.light:hover, button.ghost.light:focus, .
 
 /* catalog item-info min height */
 .item-info {
-	min-height: 5rem;
+	min-height: 6rem;
 }
 
 /* catalog view background color */

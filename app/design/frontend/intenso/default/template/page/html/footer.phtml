@@ -10,97 +10,146 @@
 ?>
 <?php $helper = Mage::helper('itactica_intenso'); ?>
 <footer class="main-footer">
-	<div class="back-to-top-container show-for-small-only">
-		<a href="#" class="back-to-top"><?php echo $this->__('Back to Top'); ?></a>
-	</div>
-	<ul class="mobile-footer-links show-for-small-only">
-		<?php echo $this->getChildHtml('cms_footer_for_mobile') ?>
-	</ul>
-	<?php if ($helper->showFooterRibbon()): ?>
-		<div class="row newsletter-ribbon<?php if(!Mage::getStoreConfig('intenso/footer/mobile_newsletter',
-				Mage::app()->getStore()) && !Mage::getStoreConfig('intenso/footer/mobile_social',
-				Mage::app()->getStore())): ?> hide-for-small-only<?php endif; ?>">
-			<div class="small-12 medium-6 columns<?php if(!Mage::getStoreConfig('intenso/footer/mobile_newsletter',
-				Mage::app()->getStore())): ?> hide-for-small-only<?php endif; ?>">
-				<?php if (Mage::getStoreConfig('intenso/footer/newsletter',
-					Mage::app()->getStore())): ?>
-					<?php echo $this->getChildHtml("newsletter"); ?>
-				<?php else: ?>
-					<?php echo $this->getChildHtml('cms_footer_top_left') ?>
-				<?php endif; ?>
-			</div>
-			<div class="small-12 medium-6 columns social<?php if(!Mage::getStoreConfig('intenso/footer/mobile_social',
-				Mage::app()->getStore())): ?> hide-for-small-only<?php endif; ?>">
-				<?php echo $this->getChildHtml('cms_footer_top_right') ?>
-			</div>
-		</div>
-	<?php endif; ?>
-	<div class="row footer-links hide-for-small-only">
-		<?php $columns = $helper->mainFooterColumnCount(); ?>
-		<?php if (!$columns) $columns = 1; ?>
-		<?php $columnSize = 12 / $columns; ?>
-		<?php if (Mage::getModel('cms/block')->load('footer_main_first_column')->getIsActive()): ?>
-			<div class="medium-<?php echo $columnSize; ?> columns">
-				<?php echo $this->getChildHtml('cms_footer_first_column') ?>
-			</div>
-		<?php endif; ?>
-		<?php if (Mage::getModel('cms/block')->load('footer_main_second_column')->getIsActive()): ?>
-			<div class="medium-<?php echo $columnSize; ?> columns">
-				<?php echo $this->getChildHtml('cms_footer_second_column') ?>
-			</div>
-		<?php endif; ?>
-		<?php if (Mage::getModel('cms/block')->load('footer_main_third_column')->getIsActive()): ?>
-			<div class="medium-<?php echo $columnSize; ?> columns">
-				<?php echo $this->getChildHtml('cms_footer_third_column') ?>
-			</div>
-		<?php endif; ?>
-		<?php if (Mage::getModel('cms/block')->load('footer_main_fourth_column')->getIsActive()): ?>
-			<div class="medium-<?php echo $columnSize; ?> columns">
-				<?php echo $this->getChildHtml('cms_footer_fourth_column') ?>
-			</div>
-		<?php endif; ?>
-		<?php if (Mage::getModel('cms/block')->load('footer_links')->getIsActive()): ?>
-			<div class="medium-12 h-links-list columns">
-				<?php echo $this->getChildHtml('cms_footer_links') ?>
-			</div>
-		<?php endif; ?>
-	</div>
-	<?php if ($helper->mobileFooterSwitches()): ?>
-		<div class="mobile-footer-switch show-for-small-only row">
-			<?php
-			$switchCount = 0;
-			if ($this->getChildHtml('store_switcher') && $helper->mobileStoreSwitch()) $switchCount++;
-			if ($this->getChildHtml('store_language') && $helper->mobileLanguageSwitch()) $switchCount++;
-			if ($this->getChildHtml('currency_selector') && $helper->mobileCurrencySelector()) $switchCount++;
-			if ($switchCount == 0) $switchCount = 1;
-			$rowCount = 12 / $switchCount;
-			?>
-			<?php if ($this->getChildHtml('store_switcher') && $helper->mobileStoreSwitch()): ?>
-				<div class="small-<?php echo $rowCount; ?> columns">
-					<?php echo $this->getChildHtml('store_switcher') ?>
-				</div>
-			<?php endif; ?>
-			<?php if ($this->getChildHtml('store_language') && $helper->mobileLanguageSwitch()): ?>
-				<div class="small-<?php echo $rowCount; ?> columns">
-					<?php echo $this->getChildHtml('store_language') ?>
-				</div>
-			<?php endif; ?>
-			<?php if ($this->getChildHtml('currency_selector') && $helper->mobileCurrencySelector()): ?>
-				<div class="small-<?php echo $rowCount; ?> columns">
-					<?php echo $this->getChildHtml('currency_selector') ?>
-				</div>
-			<?php endif; ?>
-		</div>
-	<?php endif; ?>
-	<div class="row footer-bottom">
-		<div class="medium-5 columns">
-			<p class="sosumi no-margin"><?php echo $this->getCopyright() ?></p>
-		</div>
-		<div class="medium-2 center hide-for-small-only columns">
-			<a href="#" class="back-to-top"><?php echo $this->__('Back to Top'); ?></a>
-		</div>
-		<div class="medium-5 hide-for-small-only columns">
-			<?php echo $this->getChildHtml('cms_footer_bottom_right') ?>
-		</div>
-	</div>
+    <div class="foot-container" style="text-align: center;margin: 2%;">
+        <p class="footer_message"></p><h2 style="text-align: Justify;"><span style="display: None;">&nbsp;</span>
+            <strong><span style="font-size:14px;"><span style="color:#ff0066;">
+                        <span style="font-family:verdana,geneva,sans-serif;">
+                            Deliver Your Wishes With&nbsp;Flowers, Cakes And Gifts&nbsp - Online On &nbsp; themidnightgifts.com</span></span></span>
+            </strong>
+        </h2>
+        <p style="text-align: Justify;"><span style="font-size:11px;"><span style="font-family:verdana,geneva,sans-serif;">
+                    You Can Deliver Smiles To Your Loved Ones And Dear Ones. Celebrate Happy Times By Delivering Fresh Flowers &amp; 
+                    Fabulous Gifts To Your Loved Ones And Dear Ones. Express Your Heartfelt Emotions, Gifts, Flowers, Cakes.
+                    When Delivered Online they Become The Form Of Your Words. </span></span></p>
+        <h2 style="text-align: Justify;"><strong><span style="font-size:14px;"><span style="color:#ff0066;">
+                        <span style="font-family:verdana,geneva,sans-serif;">
+                            Wide Variety Of Fresh Cut Flowers And Fresh Cakes For Online Delivery Or Order Online</span></span></span></strong></h2>
+        <p style="text-align: Justify;"><span style="font-size:11px;"><span style="font-family:verdana,geneva,sans-serif;">
+                    Online Delivery At www.themidnightgifts.com Where Designer Bunches Of Rose Flowers&nbsp;are The Most&nbsp;selling Flowers, 
+                    We Also Deliver Wide Range Of Flowers Other Than&nbsp;Roses Too, Such As Lilies, Carnations, Orchids&nbsp;and Various 
+                    Other Seasonal Cut Flowers.</span></span></p>
+        <p style="text-align: Justify;"><span style="font-size:11px;"><span style="font-family:verdana,geneva,sans-serif;">
+                    Fresh And Delicious Cakes For All&nbsp;occasion, Fresh Fruit Cakes, Chocolate Cakes, Fondant Cakes, 
+                    Cream Cakes With Maximum Types Of Flavors Like Vanilla, Choco Vanilla, Butter Scotch, Strawberry,
+                    Dark Chocolate, Chocolate Truffle, Red Velvet, Cheese Cakes And As Needed On Special Occasions 
+                    – Whether It Be Birthday, Anniversary, Valentine Gifts, Rakhi For Raksha Bandhan, Mother's Day,
+                    Father’s Day, Friendship Days&nbsp;Diwali And All Such Festival Occasions.
+                    It Is Easy, Fast And Secure To Send&nbsp;&nbsp;fresh Flower Arrangements And&nbsp;cakes And Other Gift Items With The 
+                    themidnightgifts And It Is Now Just Few&nbsp;clicks Away. 
+                    Our site Is Worldwide Running And Orders Can Be Placed From Any Part Of The World But Our Delivery
+                    Is In Selected Cities Only In Jaipur</span></span></p>
+        <p style="text-align: Justify;"><span style="font-size:11px;"><span style="font-family:verdana,geneva,sans-serif;">
+                    With Our Continuous Endeavour, We Intend To Provide Best
+                    Quality Services To Meet The Customer Expectations With Par Excellence Service;
+                    We Observe The Highest Ethical Standards With Our Every Single Prestigious Customer,
+                    Management, Vendors And All Associates With.</span></span></p>
+        <p style="text-align: Justify;"><span style="font-size:11px;"><span style="font-family:verdana,geneva,sans-serif;">
+                    We Always Aim To Serve Each And Every Online Gift Order We Receive With Complete Care,
+                    Acknowledgement And With Accurate Delivery Of Genuine Gifts, Cakes, Flowers As Ordered By The Customer.
+                    The Performance And Process Are Monitored Regularly At All Relevant Areas And At Each Step To Ensure
+                    That Our Objectives Are Achieved With, Customers Happiness And Satisfaction Is Our Success.</span></span></p>
+        <p style="text-align: Justify;">&nbsp;</p>
+        <p style="text-align: Justify;"><strong><span style="font-size:14px;"><span style="color:#00cc99;">
+                        <span style="font-family:verdana,geneva,sans-serif;">Our Payment Gateway Accepts All Type Of Payment
+                            Processing Options Such As CREDIT CARD, NET BANKING, DEBIT CARD, ATM CARDS Etc.</span></span></span></strong></p>
+        <p style="text-align: Justify;">&nbsp;</p>
+    </div>
+    <!--/ .container--> 
+    <div class="back-to-top-container show-for-small-only">
+        <a href="#" class="back-to-top"><?php echo $this->__('Back to Top'); ?></a>
+    </div>
+    <ul class="mobile-footer-links show-for-small-only">
+        <?php echo $this->getChildHtml('cms_footer_for_mobile') ?>
+    </ul>
+    <?php if ($helper->showFooterRibbon()): ?>
+        <div class="row newsletter-ribbon<?php
+        if (!Mage::getStoreConfig('intenso/footer/mobile_newsletter', Mage::app()->getStore()) && !Mage::getStoreConfig('intenso/footer/mobile_social', Mage::app()->getStore())):
+            ?> hide-for-small-only<?php endif; ?>">
+            <div class="small-12 medium-6 columns<?php if (!Mage::getStoreConfig('intenso/footer/mobile_newsletter', Mage::app()->getStore())):
+            ?> hide-for-small-only<?php endif; ?>">
+                 <?php if (Mage::getStoreConfig('intenso/footer/newsletter', Mage::app()->getStore())):
+                     ?>
+                     <?php echo $this->getChildHtml("newsletter"); ?>
+                 <?php else: ?>
+                     <?php echo $this->getChildHtml('cms_footer_top_left') ?>
+                 <?php endif; ?>
+            </div>
+            <div class="small-12 medium-6 columns social<?php if (!Mage::getStoreConfig('intenso/footer/mobile_social', Mage::app()->getStore())):
+                     ?> hide-for-small-only<?php endif; ?>">
+                 <?php echo $this->getChildHtml('cms_footer_top_right') ?>
+            </div>
+        </div>
+    <?php endif; ?>
+    <div class="row footer-links hide-for-small-only">
+        <?php $columns = $helper->mainFooterColumnCount(); ?>
+        <?php if (!$columns) $columns = 1; ?>
+        <?php $columnSize = 12 / $columns; ?>
+        <?php if (Mage::getModel('cms/block')->load('footer_main_first_column')->getIsActive()): ?>
+            <div class="medium-<?php echo $columnSize; ?> columns">
+                <?php echo $this->getChildHtml('cms_footer_first_column') ?>
+            </div>
+        <?php endif; ?>
+        <?php if (Mage::getModel('cms/block')->load('footer_main_second_column')->getIsActive()): ?>
+            <div class="medium-<?php echo $columnSize; ?> columns">
+                <?php echo $this->getChildHtml('cms_footer_second_column') ?>
+            </div>
+        <?php endif; ?>
+        <?php if (Mage::getModel('cms/block')->load('footer_main_third_column')->getIsActive()): ?>
+            <div class="medium-<?php echo $columnSize; ?> columns">
+                <?php echo $this->getChildHtml('cms_footer_third_column') ?>
+            </div>
+        <?php endif; ?>
+        <?php if (Mage::getModel('cms/block')->load('footer_main_fourth_column')->getIsActive()): ?>
+            <div class="medium-<?php echo $columnSize; ?> columns">
+                <?php echo $this->getChildHtml('cms_footer_fourth_column') ?>
+            </div>
+        <?php endif; ?>
+        <?php if (Mage::getModel('cms/block')->load('footer_links')->getIsActive()): ?>
+            <div class="medium-12 h-links-list columns">
+                <?php echo $this->getChildHtml('cms_footer_links') ?>
+            </div>
+        <?php endif; ?>
+    </div>
+    <?php if ($helper->mobileFooterSwitches()): ?>
+        <div class="mobile-footer-switch show-for-small-only row">
+            <?php
+            $switchCount = 0;
+            if ($this->getChildHtml('store_switcher') && $helper->mobileStoreSwitch())
+                $switchCount++;
+            if ($this->getChildHtml('store_language') && $helper->mobileLanguageSwitch())
+                $switchCount++;
+            if ($this->getChildHtml('currency_selector') && $helper->mobileCurrencySelector())
+                $switchCount++;
+            if ($switchCount == 0)
+                $switchCount = 1;
+            $rowCount = 12 / $switchCount;
+            ?>
+            <?php if ($this->getChildHtml('store_switcher') && $helper->mobileStoreSwitch()): ?>
+                <div class="small-<?php echo $rowCount; ?> columns">
+                    <?php echo $this->getChildHtml('store_switcher') ?>
+                </div>
+            <?php endif; ?>
+            <?php if ($this->getChildHtml('store_language') && $helper->mobileLanguageSwitch()): ?>
+                <div class="small-<?php echo $rowCount; ?> columns">
+                    <?php echo $this->getChildHtml('store_language') ?>
+                </div>
+            <?php endif; ?>
+            <?php if ($this->getChildHtml('currency_selector') && $helper->mobileCurrencySelector()): ?>
+                <div class="small-<?php echo $rowCount; ?> columns">
+                    <?php echo $this->getChildHtml('currency_selector') ?>
+                </div>
+            <?php endif; ?>
+        </div>
+    <?php endif; ?>
+    <div class="row footer-bottom">
+        <div class="medium-5 columns">
+            <p class="sosumi no-margin"><?php echo $this->getCopyright() ?></p>
+        </div>
+        <div class="medium-2 center hide-for-small-only columns">
+            <a href="#" class="back-to-top"><?php echo $this->__('Back to Top'); ?></a>
+        </div>
+        <div class="medium-5 hide-for-small-only columns">
+            <?php echo $this->getChildHtml('cms_footer_bottom_right') ?>
+        </div>
+    </div>
 </footer>
