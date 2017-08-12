@@ -275,6 +275,7 @@ class Mage_Checkout_OnepageController extends Mage_Checkout_Controller_Action
     public function successAction()
     {
         $session = $this->getOnepage()->getCheckout();
+        Mage::getSingleton('checkout/session')->setOrderDetails($session);
         if (!$session->getLastSuccessQuoteId()) {
             $this->_redirect('checkout/cart');
             return;
@@ -347,6 +348,10 @@ class Mage_Checkout_OnepageController extends Mage_Checkout_Controller_Action
     public function saveMethodAction()
     {
         if ($this->_expireAjax()) {
+            return;
+        }
+
+        if ($this->isFormkeyValidationOnCheckoutEnabled() && !$this->_validateFormKey()) {
             return;
         }
 

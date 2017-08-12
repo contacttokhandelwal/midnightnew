@@ -1,0 +1,83 @@
+<?php
+$checkoutSession = Mage::getSingleton('checkout/session')->getOrderDetails();
+?>
+
+<form id="order-success" action="<?php echo $this->getUrl('orderdetails/index/saveOrderData'); ?>" method="post">
+    <!-- ============================== Fieldset 1 ============================== -->
+    <input class="inp-text" name="order_id" id="order_id" type="hidden" value="<?php echo $checkoutSession->getLastOrderId(); ?>" size="30" />
+    <input class="inp-text" name="increment_id" type="hidden" size="30" value="<?php echo $checkoutSession->getIncrementId(); ?>" />
+    <input class="inp-text" name="customer_id"  type="hidden" size="30" value="<?php echo Mage::getSingleton('customer/session')->getCustomer()->getId(); ?>" />
+    <input class="inp-text" name="order_date"  type="hidden" size="30" value="<?php echo $checkoutSession->getCreatedAt(); ?>" />
+    <div class="form-box wide">
+        <h6 class="legend">Please provide following information regarding your order</h6>
+        <br>
+        <ul class="form-list">
+            <li class="fields">
+                <div class="customer-name-middlename">
+                    <div class="field name-email">
+                        <label for="email" class="required"><em>*</em>Customer Email</label>
+                        <div class="input-box">
+                            <input type="text" id="email" name="customer_email" 
+                                   value="<?php echo Mage::getSingleton('customer/session')->getCustomer()->getEmail(); ?>" 
+                                   title="Email" maxlength="255" class="input-text validate-email required-entry">
+                        </div>
+                    </div>
+                    <div class="field name-delivey_date">
+                        <label for="delivey_date" class="required"><em>*</em>Delivery Date</label>
+                        <div class="input-box">
+                            <input type="text" id="delivey_date" name="delivery_date"
+                                   title="Delivery Date" maxlength="255" class="input-text required-entry validate-date">
+                        </div>
+                        (DD\MM\YYY)
+                    </div>
+                </div>
+            </li>
+            <li>
+                <label for="delivery_time" class="required"><em>*</em>Delivery Time</label>
+                <div class="input-box">
+                    <input type="text" name="delivery_time" id="delivery_time" value="" title="Delivery Time" 
+                           class="input-text required-entry">
+                </div>
+            </li>
+        </ul>
+        <ul class="form-list">
+            <li class="fields">
+                <div class="field">
+                    <label for="special_request" class="required"><em>*</em>Special Request</label>
+                    <div class="input-box">
+                        <input type="text" name="special_request" id="special_request" title="Password"
+                               class="input-text">
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="other_contact_number" class="required"><em>*</em>Alternate Contact Number</label>
+                    <div class="input-box">
+                        <input type="other_contact_number" name="other_contact_number"
+                               title="Alternate Contact Number" id="other_contact_number" class="input-text">
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <ul class="form-list">
+            <li class="fields">
+                <div class="field">
+                    <label for="Message" class="required"><em>*</em>Message</label>
+                    <div class="input-box">
+                        <input type="textarea" name="message" id="Message" title="Message" class="input-text">
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="buttons-set">
+            <p class="required">* Required Fields</p>
+            <button type="submit" title="Submit" class="button"><span><span>Submit</span></span></button>
+        </div>
+    </div>
+</form>
+<!--<div class="buttons-set">
+    <button type="button" class="button" title="<?php echo $this->__('Continue Shopping') ?>" onclick="window.location = '<?php echo $this->getUrl() ?>'"><span><span><?php echo $this->__('Continue Shopping') ?></span></span></button>
+</div>-->
+</div>
+<script>
+    var dataForm = new VarienForm('order-success', true);
+</script>
