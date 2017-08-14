@@ -25,9 +25,9 @@ class Developer_Orderdetails_Block_Adminhtml_Details_Grid extends Mage_Adminhtml
 //            "index" => "id",
 //        ));
 
-        $this->addColumn("increment_id", array(
+        $this->addColumn("order_id", array(
             "header" => Mage::helper("orderdetails")->__("Increment Id"),
-            "index" => "increment_id",
+            "index" => "order_id",
         ));
         $this->addColumn("customer_id", array(
             "header" => Mage::helper("orderdetails")->__("Customer Id"),

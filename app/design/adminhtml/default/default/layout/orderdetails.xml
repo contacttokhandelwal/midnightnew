@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+  <orderdetails_adminhtml_orderdetailsbackend_index>
+	<reference name="content">
+	  <block type="orderdetails/adminhtml_orderdetailsbackend" name="orderdetailsbackend" template="orderdetails/orderdetailsbackend.phtml"/>
+	</reference>
+  </orderdetails_adminhtml_orderdetailsbackend_index>
+  <orderdetails_adminhtml_details_index>
+	<reference name="content">
+	  <block type="orderdetails/adminhtml_details" name="details" />
+	</reference>
+  </orderdetails_adminhtml_details_index>
+</layout>

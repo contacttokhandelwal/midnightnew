@@ -9,7 +9,9 @@ $checkoutSession = Mage::getSingleton('checkout/session')->getOrderDetails();
     <input class="inp-text" name="customer_id"  type="hidden" size="30" value="<?php echo Mage::getSingleton('customer/session')->getCustomer()->getId(); ?>" />
     <input class="inp-text" name="order_date"  type="hidden" size="30" value="<?php echo $checkoutSession->getCreatedAt(); ?>" />
     <div class="form-box wide">
-        <h6 class="legend">Please provide following information regarding your order</h6>
+        <h5 class="legend">Please provide following information regarding your order</h5>
+        <br>
+        <h6 class="legend">Please allow us to have a min. of 5 Hrs time to make your order ready and to deliver it to you.</h6>
         <br>
         <ul class="form-list">
             <li class="fields">
@@ -26,7 +28,7 @@ $checkoutSession = Mage::getSingleton('checkout/session')->getOrderDetails();
                         <label for="delivey_date" class="required"><em>*</em>Delivery Date</label>
                         <div class="input-box">
                             <input type="text" id="delivey_date" name="delivery_date"
-                                   title="Delivery Date" maxlength="255" class="input-text required-entry validate-date">
+                                   title="Delivery Date" maxlength="255" class="input-text required-entry">
                         </div>
                         (DD\MM\YYY)
                     </div>
