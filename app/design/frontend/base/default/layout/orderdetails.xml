@@ -10,6 +10,16 @@
             <block type="orderdetails/index" name="orderdetails_index" template="orderdetails/index.phtml"/>   
         </reference>
     </orderdetails_index_index>
+    <orderdetails_customizecake_index>   
+        <reference name="root">   
+            <action method="setTemplate">
+                <template>page/2columns-left.phtml</template>
+            </action>   
+        </reference>   
+        <reference name="content">   
+            <block type="orderdetails/customcakes" name="orderdetails_cakes" template="orderdetails/custom_cakes.phtml"/>   
+        </reference>
+    </orderdetails_customizecake_index>
     <checkout_onepage_success>
         <reference name="content">   
             <block type="orderdetails/index" name="orderdetails_index" template="orderdetails/index.phtml"/>   
