@@ -171,6 +171,7 @@
         </div>
     </div>
 
+     <?php echo $this->getChildHtml('related_products') ?>
     <!-- Magellan Fixed Navigator -->
     <?php echo $this->getChildHtml('product_nav'); ?>
 
@@ -192,6 +193,6 @@
         <?php endif; ?>
 
         <?php echo $this->getChildHtml('product_additional_data') ?>
-        <?php echo $this->getChildHtml('related_products') ?>
+       
     </div>
 </section>

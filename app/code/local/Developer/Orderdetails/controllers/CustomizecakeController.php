@@ -82,11 +82,11 @@ class Developer_Orderdetails_CustomizecakeController extends Mage_Core_Controlle
                     ->setStoreId(1) //you can set data in store scope
                     ->setWebsiteIds(array(1)) //website ID the product is assigned to, as an array
                     ->setAttributeSetId(12) //ID of a attribute set named 'default'
-                    ->setTypeId('virtual') //product type
+                    ->setTypeId('simple') //product type
                     ->setCreatedAt(strtotime('now')) //product creation time
                     ->setUpdatedAt(strtotime('now')) //product update time
                     ->setSku($data['sku']) //SKU
-                    ->setShortdescription($data['name']) //SKU
+                    ->setShortDescription($data['name']) //SKU
                     ->setDescription($data['name']) //SKU
                     ->setCakeType($data['cake_type']) //SKU
                     ->setName($data['name']) //product name

@@ -37,15 +37,19 @@ $checkoutSession = Mage::getSingleton('checkout/session')->getOrderDetails();
             <li>
                 <label for="delivery_time" class="required"><em>*</em>Delivery Time</label>
                 <div class="input-box">
-                    <input type="text" name="delivery_time" id="delivery_time" value="" title="Delivery Time" 
-                           class="input-text required-entry">
+                    <select id="delivery_time" title="Delivery Time" name="delivery_time" class="required-entry required-entry select ">
+                        <option value="6:00 AM To 10:00 AM">6:00 AM To 10:00 AM</option>
+                        <option value="10:00 AM To 2:00 PM">10:00 AM To 2:00 PM</option>
+                        <option value="2:00 PM To 8:00 PM">2:00 PM To 8:00 PM</option>
+                        <option value="8:00 PM To 12:00 AM">8:00 PM To 12:00 AM</option>
+                    </select>
                 </div>
             </li>
         </ul>
         <ul class="form-list">
             <li class="fields">
                 <div class="field">
-                    <label for="special_request" class="required"><em>*</em>Special Request</label>
+                    <label for="special_request" class="required"><em>*</em>Weight[In Pounds]</label>
                     <div class="input-box">
                         <input type="text" name="special_request" id="special_request" title="Password"
                                class="input-text">

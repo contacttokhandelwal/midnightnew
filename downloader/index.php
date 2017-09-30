@@ -1,4 +1,11 @@
 <?php
+echo '<pre>';
+
+echo 'We will shortly be back to you';
+
+echo '<br>';
+echo 'For more information contact info@themidnightgifts.com';
+exit;  
 /**
  * Magento
  *

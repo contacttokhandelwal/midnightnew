@@ -21,8 +21,9 @@ class Developer_Orderdetails_IndexController extends Mage_Core_Controller_Front_
         $this->renderLayout();
     }
 
-    public function saveOrderDataAction() {
+     public function saveOrderDataAction() {
         $p = $this->getRequest()->getPost();
+        $p['order_date'] = Mage::getModel('core/date')->gmtDate('Y-m-d H:i:s');
         $orderDetails = Mage::getModel('orderdetails/details')->addData($p);
         $orderDetails->save();
         Mage::getSingleton('checkout/session')->addSuccess($this->__('Your information has been saved successfully.'));
@@ -63,11 +64,11 @@ class Developer_Orderdetails_IndexController extends Mage_Core_Controller_Front_
                     ->setStoreId(1) //you can set data in store scope
                     ->setWebsiteIds(array(1)) //website ID the product is assigned to, as an array
                     ->setAttributeSetId(12) //ID of a attribute set named 'default'
-                    ->setTypeId('virtual') //product type
+                    ->setTypeId('simple') //product type
                     ->setCreatedAt(strtotime('now')) //product creation time
                     ->setUpdatedAt(strtotime('now')) //product update time
                     ->setSku($data['sku']) //SKU
-                    ->setShortdescription($data['name']) //SKU
+                    ->setShortDescription($data['name']) //SKU
                     ->setDescription($data['name']) //SKU
                     ->setCakeType($data['cake_type']) //SKU
                     ->setName($data['name']) //product name
