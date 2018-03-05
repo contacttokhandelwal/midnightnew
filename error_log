@@ -1,0 +1,147 @@
+[24-Feb-2018 07:51:01 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/develop121/public_html/vendor/oyejorge/less.php/lib/Less/Visitor/processExtends.php on line 461
+[28-Feb-2018 00:51:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php:71
+Stack trace:
+#0 /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php(89): Magento\Catalog\Block\Category\Rss\Link->getLinkParams()
+#1 /home/develop121/public_html/vendor/magento/module-catalog/view/frontend/templates/category/rss.phtml(10): Magento\Catalog\Block\Category\Rss\Link->getLink()
+#2 /home/develop121/public_html/vendor/magento/framework/View/TemplateEngine/Php.php(59): include('/home/develop12...')
+#3 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(270): Magento\Framework\View\TemplateEngine\Php->render(Object(Magento\Catalog\Block\Category\Rss\Link), '/home/develop12...', Array)
+#4 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(300): Magento\Framework\View\Element\Template->fetchView('/home/develop12...')
+#5 /home/develop121/public_html/vendor/magento/f in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php on line 71
+[28-Feb-2018 00:57:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php:71
+Stack trace:
+#0 /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php(89): Magento\Catalog\Block\Category\Rss\Link->getLinkParams()
+#1 /home/develop121/public_html/vendor/magento/module-catalog/view/frontend/templates/category/rss.phtml(10): Magento\Catalog\Block\Category\Rss\Link->getLink()
+#2 /home/develop121/public_html/vendor/magento/framework/View/TemplateEngine/Php.php(59): include('/home/develop12...')
+#3 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(270): Magento\Framework\View\TemplateEngine\Php->render(Object(Magento\Catalog\Block\Category\Rss\Link), '/home/develop12...', Array)
+#4 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(300): Magento\Framework\View\Element\Template->fetchView('/home/develop12...')
+#5 /home/develop121/public_html/vendor/magento/f in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php on line 71
+[28-Feb-2018 06:53:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php:71
+Stack trace:
+#0 /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php(89): Magento\Catalog\Block\Category\Rss\Link->getLinkParams()
+#1 /home/develop121/public_html/vendor/magento/module-catalog/view/frontend/templates/category/rss.phtml(10): Magento\Catalog\Block\Category\Rss\Link->getLink()
+#2 /home/develop121/public_html/vendor/magento/framework/View/TemplateEngine/Php.php(59): include('/home/develop12...')
+#3 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(270): Magento\Framework\View\TemplateEngine\Php->render(Object(Magento\Catalog\Block\Category\Rss\Link), '/home/develop12...', Array)
+#4 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(300): Magento\Framework\View\Element\Template->fetchView('/home/develop12...')
+#5 /home/develop121/public_html/vendor/magento/f in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php on line 71
+[28-Feb-2018 07:28:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php:71
+Stack trace:
+#0 /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php(89): Magento\Catalog\Block\Category\Rss\Link->getLinkParams()
+#1 /home/develop121/public_html/vendor/magento/module-catalog/view/frontend/templates/category/rss.phtml(10): Magento\Catalog\Block\Category\Rss\Link->getLink()
+#2 /home/develop121/public_html/vendor/magento/framework/View/TemplateEngine/Php.php(59): include('/home/develop12...')
+#3 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(270): Magento\Framework\View\TemplateEngine\Php->render(Object(Magento\Catalog\Block\Category\Rss\Link), '/home/develop12...', Array)
+#4 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(300): Magento\Framework\View\Element\Template->fetchView('/home/develop12...')
+#5 /home/develop121/public_html/vendor/magento/f in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php on line 71
+[28-Feb-2018 07:29:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php:71
+Stack trace:
+#0 /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php(89): Magento\Catalog\Block\Category\Rss\Link->getLinkParams()
+#1 /home/develop121/public_html/vendor/magento/module-catalog/view/frontend/templates/category/rss.phtml(10): Magento\Catalog\Block\Category\Rss\Link->getLink()
+#2 /home/develop121/public_html/vendor/magento/framework/View/TemplateEngine/Php.php(59): include('/home/develop12...')
+#3 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(270): Magento\Framework\View\TemplateEngine\Php->render(Object(Magento\Catalog\Block\Category\Rss\Link), '/home/develop12...', Array)
+#4 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(300): Magento\Framework\View\Element\Template->fetchView('/home/develop12...')
+#5 /home/develop121/public_html/vendor/magento/f in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php on line 71
+[28-Feb-2018 13:40:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php:71
+Stack trace:
+#0 /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php(89): Magento\Catalog\Block\Category\Rss\Link->getLinkParams()
+#1 /home/develop121/public_html/vendor/magento/module-catalog/view/frontend/templates/category/rss.phtml(10): Magento\Catalog\Block\Category\Rss\Link->getLink()
+#2 /home/develop121/public_html/vendor/magento/framework/View/TemplateEngine/Php.php(59): include('/home/develop12...')
+#3 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(270): Magento\Framework\View\TemplateEngine\Php->render(Object(Magento\Catalog\Block\Category\Rss\Link), '/home/develop12...', Array)
+#4 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(300): Magento\Framework\View\Element\Template->fetchView('/home/develop12...')
+#5 /home/develop121/public_html/vendor/magento/f in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php on line 71
+[28-Feb-2018 13:43:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php:71
+Stack trace:
+#0 /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php(89): Magento\Catalog\Block\Category\Rss\Link->getLinkParams()
+#1 /home/develop121/public_html/vendor/magento/module-catalog/view/frontend/templates/category/rss.phtml(10): Magento\Catalog\Block\Category\Rss\Link->getLink()
+#2 /home/develop121/public_html/vendor/magento/framework/View/TemplateEngine/Php.php(59): include('/home/develop12...')
+#3 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(270): Magento\Framework\View\TemplateEngine\Php->render(Object(Magento\Catalog\Block\Category\Rss\Link), '/home/develop12...', Array)
+#4 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(300): Magento\Framework\View\Element\Template->fetchView('/home/develop12...')
+#5 /home/develop121/public_html/vendor/magento/f in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php on line 71
+[28-Feb-2018 18:18:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php:71
+Stack trace:
+#0 /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php(89): Magento\Catalog\Block\Category\Rss\Link->getLinkParams()
+#1 /home/develop121/public_html/vendor/magento/module-catalog/view/frontend/templates/category/rss.phtml(10): Magento\Catalog\Block\Category\Rss\Link->getLink()
+#2 /home/develop121/public_html/vendor/magento/framework/View/TemplateEngine/Php.php(59): include('/home/develop12...')
+#3 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(270): Magento\Framework\View\TemplateEngine\Php->render(Object(Magento\Catalog\Block\Category\Rss\Link), '/home/develop12...', Array)
+#4 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(300): Magento\Framework\View\Element\Template->fetchView('/home/develop12...')
+#5 /home/develop121/public_html/vendor/magento/f in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php on line 71
+[28-Feb-2018 18:18:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php:71
+Stack trace:
+#0 /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php(89): Magento\Catalog\Block\Category\Rss\Link->getLinkParams()
+#1 /home/develop121/public_html/vendor/magento/module-catalog/view/frontend/templates/category/rss.phtml(10): Magento\Catalog\Block\Category\Rss\Link->getLink()
+#2 /home/develop121/public_html/vendor/magento/framework/View/TemplateEngine/Php.php(59): include('/home/develop12...')
+#3 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(270): Magento\Framework\View\TemplateEngine\Php->render(Object(Magento\Catalog\Block\Category\Rss\Link), '/home/develop12...', Array)
+#4 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(300): Magento\Framework\View\Element\Template->fetchView('/home/develop12...')
+#5 /home/develop121/public_html/vendor/magento/f in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php on line 71
+[28-Feb-2018 19:27:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php:71
+Stack trace:
+#0 /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php(89): Magento\Catalog\Block\Category\Rss\Link->getLinkParams()
+#1 /home/develop121/public_html/vendor/magento/module-catalog/view/frontend/templates/category/rss.phtml(10): Magento\Catalog\Block\Category\Rss\Link->getLink()
+#2 /home/develop121/public_html/vendor/magento/framework/View/TemplateEngine/Php.php(59): include('/home/develop12...')
+#3 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(270): Magento\Framework\View\TemplateEngine\Php->render(Object(Magento\Catalog\Block\Category\Rss\Link), '/home/develop12...', Array)
+#4 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(300): Magento\Framework\View\Element\Template->fetchView('/home/develop12...')
+#5 /home/develop121/public_html/vendor/magento/f in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php on line 71
+[28-Feb-2018 19:34:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php:71
+Stack trace:
+#0 /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php(89): Magento\Catalog\Block\Category\Rss\Link->getLinkParams()
+#1 /home/develop121/public_html/vendor/magento/module-catalog/view/frontend/templates/category/rss.phtml(10): Magento\Catalog\Block\Category\Rss\Link->getLink()
+#2 /home/develop121/public_html/vendor/magento/framework/View/TemplateEngine/Php.php(59): include('/home/develop12...')
+#3 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(270): Magento\Framework\View\TemplateEngine\Php->render(Object(Magento\Catalog\Block\Category\Rss\Link), '/home/develop12...', Array)
+#4 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(300): Magento\Framework\View\Element\Template->fetchView('/home/develop12...')
+#5 /home/develop121/public_html/vendor/magento/f in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php on line 71
+[01-Mar-2018 05:46:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php:71
+Stack trace:
+#0 /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php(89): Magento\Catalog\Block\Category\Rss\Link->getLinkParams()
+#1 /home/develop121/public_html/vendor/magento/module-catalog/view/frontend/templates/category/rss.phtml(10): Magento\Catalog\Block\Category\Rss\Link->getLink()
+#2 /home/develop121/public_html/vendor/magento/framework/View/TemplateEngine/Php.php(59): include('/home/develop12...')
+#3 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(270): Magento\Framework\View\TemplateEngine\Php->render(Object(Magento\Catalog\Block\Category\Rss\Link), '/home/develop12...', Array)
+#4 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(300): Magento\Framework\View\Element\Template->fetchView('/home/develop12...')
+#5 /home/develop121/public_html/vendor/magento/f in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php on line 71
+[01-Mar-2018 05:46:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php:71
+Stack trace:
+#0 /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php(89): Magento\Catalog\Block\Category\Rss\Link->getLinkParams()
+#1 /home/develop121/public_html/vendor/magento/module-catalog/view/frontend/templates/category/rss.phtml(10): Magento\Catalog\Block\Category\Rss\Link->getLink()
+#2 /home/develop121/public_html/vendor/magento/framework/View/TemplateEngine/Php.php(59): include('/home/develop12...')
+#3 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(270): Magento\Framework\View\TemplateEngine\Php->render(Object(Magento\Catalog\Block\Category\Rss\Link), '/home/develop12...', Array)
+#4 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(300): Magento\Framework\View\Element\Template->fetchView('/home/develop12...')
+#5 /home/develop121/public_html/vendor/magento/f in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php on line 71
+[01-Mar-2018 15:32:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php:71
+Stack trace:
+#0 /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php(89): Magento\Catalog\Block\Category\Rss\Link->getLinkParams()
+#1 /home/develop121/public_html/vendor/magento/module-catalog/view/frontend/templates/category/rss.phtml(10): Magento\Catalog\Block\Category\Rss\Link->getLink()
+#2 /home/develop121/public_html/vendor/magento/framework/View/TemplateEngine/Php.php(59): include('/home/develop12...')
+#3 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(270): Magento\Framework\View\TemplateEngine\Php->render(Object(Magento\Catalog\Block\Category\Rss\Link), '/home/develop12...', Array)
+#4 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(300): Magento\Framework\View\Element\Template->fetchView('/home/develop12...')
+#5 /home/develop121/public_html/vendor/magento/f in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php on line 71
+[02-Mar-2018 12:46:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php:71
+Stack trace:
+#0 /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php(89): Magento\Catalog\Block\Category\Rss\Link->getLinkParams()
+#1 /home/develop121/public_html/vendor/magento/module-catalog/view/frontend/templates/category/rss.phtml(10): Magento\Catalog\Block\Category\Rss\Link->getLink()
+#2 /home/develop121/public_html/vendor/magento/framework/View/TemplateEngine/Php.php(59): include('/home/develop12...')
+#3 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(270): Magento\Framework\View\TemplateEngine\Php->render(Object(Magento\Catalog\Block\Category\Rss\Link), '/home/develop12...', Array)
+#4 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(300): Magento\Framework\View\Element\Template->fetchView('/home/develop12...')
+#5 /home/develop121/public_html/vendor/magento/f in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php on line 71
+[02-Mar-2018 12:46:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php:71
+Stack trace:
+#0 /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php(89): Magento\Catalog\Block\Category\Rss\Link->getLinkParams()
+#1 /home/develop121/public_html/vendor/magento/module-catalog/view/frontend/templates/category/rss.phtml(10): Magento\Catalog\Block\Category\Rss\Link->getLink()
+#2 /home/develop121/public_html/vendor/magento/framework/View/TemplateEngine/Php.php(59): include('/home/develop12...')
+#3 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(270): Magento\Framework\View\TemplateEngine\Php->render(Object(Magento\Catalog\Block\Category\Rss\Link), '/home/develop12...', Array)
+#4 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(300): Magento\Framework\View\Element\Template->fetchView('/home/develop12...')
+#5 /home/develop121/public_html/vendor/magento/f in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php on line 71
+[04-Mar-2018 13:23:26 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 2145720 bytes) in /home/develop121/public_html/vendor/composer/composer/src/Composer/Cache.php on line 92
+[04-Mar-2018 13:25:00 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 9437184 bytes) in /home/develop121/public_html/vendor/composer/composer/src/Composer/Repository/ComposerRepository.php on line 562
+[04-Mar-2018 13:25:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php:71
+Stack trace:
+#0 /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php(89): Magento\Catalog\Block\Category\Rss\Link->getLinkParams()
+#1 /home/develop121/public_html/vendor/magento/module-catalog/view/frontend/templates/category/rss.phtml(10): Magento\Catalog\Block\Category\Rss\Link->getLink()
+#2 /home/develop121/public_html/vendor/magento/framework/View/TemplateEngine/Php.php(59): include('/home/develop12...')
+#3 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(270): Magento\Framework\View\TemplateEngine\Php->render(Object(Magento\Catalog\Block\Category\Rss\Link), '/home/develop12...', Array)
+#4 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(300): Magento\Framework\View\Element\Template->fetchView('/home/develop12...')
+#5 /home/develop121/public_html/vendor/magento/f in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php on line 71
+[04-Mar-2018 13:25:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php:71
+Stack trace:
+#0 /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php(89): Magento\Catalog\Block\Category\Rss\Link->getLinkParams()
+#1 /home/develop121/public_html/vendor/magento/module-catalog/view/frontend/templates/category/rss.phtml(10): Magento\Catalog\Block\Category\Rss\Link->getLink()
+#2 /home/develop121/public_html/vendor/magento/framework/View/TemplateEngine/Php.php(59): include('/home/develop12...')
+#3 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(270): Magento\Framework\View\TemplateEngine\Php->render(Object(Magento\Catalog\Block\Category\Rss\Link), '/home/develop12...', Array)
+#4 /home/develop121/public_html/vendor/magento/framework/View/Element/Template.php(300): Magento\Framework\View\Element\Template->fetchView('/home/develop12...')
+#5 /home/develop121/public_html/vendor/magento/f in /home/develop121/public_html/vendor/magento/module-catalog/Block/Category/Rss/Link.php on line 71

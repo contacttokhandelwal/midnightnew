@@ -1,0 +1,796 @@
+"block_id","title","identifier","content","creation_time","update_time","is_active"
+"1","Footer column content 1","footer_col_1","<ul>
+    <li><a href=""{{store direct_url=""about-us""}}"">About Us</a></li>
+    <li><a href=""{{store direct_url=""customer-service""}}"">Customer Service</a></li>
+    <li><a href=""{{store url=""""}}template-settings"">Template Settings</a></li>
+</ul>","2016-08-11 02:14:15","2016-08-11 02:19:51","1"
+"2","Footer column content 2","footer_col_2","<div class=""footer-col"">
+    <h4>Why buy from us</h4>
+    <div class=""footer-col-content"">
+   	 <ul>
+   		 <li><a href=""{{store url=""""}}shipping-delivery"">Shipping & Delivery</a></li>
+   		 <li><a href=""{{store url=""""}}secure-payment"">Secure payment</a></li>
+   		 <li><a href=""{{store url=""""}}support"">Support</a></li>
+   		 <li><a href=""{{store url=""""}}guarantee"">Guarantee</a></li>
+   		 <li><a href=""{{store url=""""}}terms-conditions"">Terms & Conditions</a></li>
+   	 </ul>
+    </div>
+</div>","2016-08-11 02:16:39","2016-09-14 05:46:50","1"
+"3","Footer column content 3","footer_col_3","<div class=""footer-col"">
+<h4>My account</h4>
+    <div class=""footer-col-content"">
+   	 <ul>
+   		 <li><a href=""{{store url='customer/account/login/'}}"">Sign In</a></li>
+   		 <li><a href=""{{store url='checkout/cart/'}}"">View Cart</a></li>
+   		 <li><a href=""{{store url='wishlist/'}}"">My Wishlist</a></li>
+   		 <li><a href=""{{store url=""""}}faq"">FAQ</a></li>
+   	 </ul>
+    </div>
+</div>","2016-08-11 02:25:20","2016-09-14 05:47:22","1"
+"4","header_info","header_info","<div class=""header-info"">
+	<div class=""container"">
+		<a href=""{{store url=''}}shipping-delivery""><i class=""icon-truck""></i><strong>Free Shipping</strong> on orders over $99. This offer is valid on all our store items. </a>
+	</div>
+</div>","2016-08-16 03:42:07","2016-11-15 21:23:29","1"
+"5","menu_block_1","menu_block_1","<div class=""menu-block-1"">
+    <a class=""menu-banner"" href=""{{store url=''}}furniture.html"">
+        <img src=""{{view url=''}}/images/media/menu-img-1.jpg""/>
+    </a>
+    <a class=""menu-banner"" href=""{{store url=''}}furniture.html"">
+        <img src=""{{view url=''}}/images/media/menu-img-2.jpg""/>
+    </a>
+</div>","2016-08-22 02:22:39","2016-08-22 06:41:10","1"
+"6","footer_block_1","footer_block_1","<div class=""footer-block-1 footer-col"">
+    <h4 class=""hidden-title"">About</h4>
+    <div class=""footer-col-content"">
+        <div class=""footer-logo"">
+            <div class=""logoAfter""></div>
+        </div>
+
+        <div class=""desc-footer"">
+            We are an anyone’s ultimate destination for getting this perfect kitchen table, cozy armchair or a beautiful and comfy king sized bed! All in all, whatever home furniture you’ll be looking for, look no further!
+        </div>
+        <ul class=""list-footer"">
+            <li><a target=""_blank"" href=""#""><i class=""fa fa-cc-visa""></i></a></li>
+            <li><a target=""_blank"" href=""#""><i class=""fa fa-cc-mastercard""></i></a></li>
+            <li><a target=""_blank"" href=""#""><i class=""fa fa-cc-paypal""></i></a></li>
+            <li><a target=""_blank"" href=""#""><i class=""fa fa-cc-discover""></i></a></li>
+            <li><a target=""_blank"" href=""#""><i class=""fa fa-cc-stripe""></i></a></li>
+        </ul>
+    </div>
+</div>
+","2016-08-28 03:20:44","2016-12-07 06:39:29","1"
+"7","footer_block_2","footer_block_2","<div class=""footer-info footer-col"">
+    <h4>Contacts</h4>
+    <div class=""footer-col-content"">
+        <ul class=""list-contacts-footer"">
+            <li>
+                Address: <a href=""#"">Glasgow D04 89GR</a>
+            </li>
+            <li>
+                Phones:
+                <a href=""callto:80023456790"">800-2345-6789;</a>
+                <a href=""callto:80023456790"">800-2345-6789</a>
+            </li>
+            <li>
+                E-mail: <a href=""#"">info@demolink.org</a>
+            </li>
+            <li>
+                Hours: 7 days a week from 9:00 am to 7:00 pm
+            </li>
+        </ul>
+        <ul class=""list-icon"">
+            <li><a target=""_blank"" href=""//www.facebook.com/TemplateMonster/""><i class=""fa fa-facebook""></i></a></li>
+            <li><a target=""_blank"" href=""//twitter.com/TemplateMonster""><i class=""fa fa-twitter""></i></a></li>
+            <li><a target=""_blank"" href=""//plus.google.com/+TemplateMonster""><i class=""fa fa-google-plus""></i></a></li>
+            <li><a target=""_blank"" href=""//www.instagram.com/template_monster/""><i class=""fa fa-instagram""></i></a></li>
+            <li><a target=""_blank"" href=""//www.pinterest.com/templatemonster/""><i class=""fa fa-pinterest""></i></a></li>
+        </ul>
+    </div>
+</div>
+
+","2016-08-28 03:53:40","2016-08-28 08:54:04","1"
+"8","block_1_layout_1","block_1_layout_1","<div class=""row border-item"">
+    <div class=""col-sm-7"">
+        <div class=""list-1"">
+            <a class=""custom-item-1"" href=""{{store url=''}}furniture.html"">
+                <img src=""{{view url=''}}/images/media/img_1_layout_1.jpg""/>
+                <div class=""custom-item-content"">
+                    <div class=""title-1"">Big Home Sale!</div>
+                    <div class=""desc-1"">Save up to 35%!</div>
+                </div>
+            </a>
+            <a class=""custom-item-1 extra"" href=""{{store url=''}}bed-bath.html"">
+                <img src=""{{view url=''}}/images/media/img_2_layout_1.jpg""/>
+                <div class=""custom-item-content"">
+                    <div class=""title-1"">Modern Designs</div>
+                    <div class=""desc-1"">New contemporary solutions</div>
+                    <span class=""link-button"">Shop now</span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class=""col-sm-5"">
+        <a class=""custom-item-2"" href=""{{store url=''}}furniture.html"">
+            <img src=""{{view url=''}}/images/media/img_3_layout_1.jpg""/>
+            <div class=""custom-item-content"">
+                <div class=""title-1"">Select Styles</div>
+                <div class=""desc-1"">Simple, comfy and elegant</div>
+                <span class=""link-button"">Shop now</span>
+            </div>
+        </a>
+    </div>
+</div>
+","2016-09-12 06:46:32","2016-11-09 18:38:10","1"
+"9","block_2_layout_1","block_2_layout_1","<div class=""row border-item"">
+    <div class=""col-sm-6"">
+        <div class=""custom-item-3"">
+            <img src=""{{view url=''}}/images/media/img_4_layout_1.jpg""/>
+            <div class=""custom-item-content"">
+                <div class=""title-1"">Light Colors</div>
+                <div class=""desc-1"">Classic and clean style</div>
+                <a class=""link-custom"" href=""{{store url=''}}furniture.html"">Shop now</a>
+            </div>
+        </div>
+    </div>
+    <div class=""col-sm-6"">
+        <div class=""custom-item-3 extra"">
+            <img src=""{{view url=''}}/images/media/img_5_layout_1.jpg""/>
+            <div class=""custom-item-content"">
+                <div class=""title-1"">Nonstandard Ideas</div>
+                <div class=""desc-1"">Use your creative fantasy</div>
+                <a class=""link-custom"" href=""{{store url=''}}bed-bath.html"">Shop now</a>
+            </div>
+        </div>
+    </div>
+</div>
+","2016-09-12 06:47:23","2016-11-06 20:34:27","1"
+"11","block_1_layout_2","block_1_layout_2","<div class=""row border-item"">
+    <div class=""col-sm-4"">
+        <div class=""custom-item-4"">
+            <img src=""{{view url=''}}/images/media/img_6_layout_2.jpg""/>
+            <div class=""custom-item-content"">
+                <div class=""title-1"">Sexy collections</div>
+                <a class=""link-custom"" href=""{{store url=''}}bras-bralettes.html"">Shop now!</a>
+            </div>
+        </div>
+    </div>
+    <div class=""col-sm-4"">
+        <div class=""custom-item-4 extra"">
+            <img src=""{{view url=''}}/images/media/img_7_layout_2.jpg""/>
+            <div class=""custom-item-content"">
+                <div class=""title-1"">Sale</div>
+                <div class=""desc-1"">Get up to</div>
+                <div class=""slog-1"">50% Off</div>
+                <a class=""link-custom"" href=""{{store url=''}}lingerie.html"">Shop now!</a>
+            </div>
+        </div>
+    </div>
+    <div class=""col-sm-4"">
+        <div class=""custom-item-4"">
+            <img src=""{{view url=''}}/images/media/img_8_layout_2.jpg""/>
+            <div class=""custom-item-content"">
+                <div class=""title-1"">Modern lingerie</div>
+                <a class=""link-custom"" href=""{{store url=''}}beauty.html"">Shop now!</a>
+            </div>
+        </div>
+    </div>
+</div>","2016-10-18 15:07:20","2016-10-18 15:07:20","1"
+"12","block_2_layout_2","block_2_layout_2","<div class=""border-item"">
+    <div class=""custom-item-5"">
+        <div class=""custom-item-content"">
+            <div class=""banner-label"">New!</div>
+            <div class=""title-1"">Swim Collection 15% Off Beach Essentials</div>
+            <div class=""desc-1"">We sell not only top quality products, but give our customers a positive online shopping experience.</div>
+            <a class=""link-custom"" href=""{{store url=''}}sale-specials.html"">Shop now!</a>
+        </div>
+        <div class=""custom-img-content"">
+            <img src=""{{view url=''}}/images/media/img_9_layout_2.jpg""/>
+        </div>
+    </div>
+</div>","2016-10-18 15:15:49","2016-10-25 12:25:38","1"
+"13","block_3_layout_2","block_3_layout_2","<div class=""row border-none"">
+    <div class=""col-sm-6"">
+        <div class=""custom-item-6"">
+            <img src=""{{view url=''}}/images/media/img_10_layout_2.jpg""/>
+            <div class=""custom-item-content"">
+                <div class=""desc-1"">New season trends!</div>
+                <div class=""title-1"">Get ready for Summer!</div>
+                <a class=""link-custom"" href=""{{store url=''}}lingerie.html"">Shop now</a>
+            </div>
+        </div>
+    </div>
+    <div class=""col-sm-6"">
+        <div class=""custom-item-6"">
+            <img src=""{{view url=''}}/images/media/img_11_layout_2.jpg""/>
+            <div class=""custom-item-content"">
+                <div class=""title-1"">Personalized Bra  Fittings</div>
+                <div class=""desc-1"">for Women of all Sizes </div>
+                <a class=""link-custom"" href=""{{store url=''}}sleep.html"">Shop now</a>
+            </div>
+        </div>
+    </div>
+</div>
+","2016-10-19 08:36:57","2016-10-19 08:42:37","1"
+"14","menu_block_2","menu_block_2","<div class=""mm-text"">
+    Find your perfect fit with silhouettes designed for both function and fashion. Magetique offers an extensive range of styles including soft bras, bandeaus, strapless bras and underwire bras.
+</div>","2016-10-25 07:58:10","2016-10-25 07:58:10","1"
+"15","menu_block_3","menu_block_3","<div class=""menu-block-3"">
+    <a class=""menu-banner"" href=""{{store url=''}}lingerie.html"">
+        <img src=""{{view url=''}}/images/media/img_12_layout_2.jpg""/>
+    </a>
+    <a class=""menu-banner"" href=""{{store url=''}}sleep.html"">
+        <img src=""{{view url=''}}/images/media/img_13_layout_2.jpg""/>
+    </a>
+</div>","2016-10-25 08:32:14","2016-10-25 08:32:14","1"
+"18","block_1_layout_3","block_1_layout_3","<div class=""custom-item-7"">
+    <div class=""item"">
+        <img src=""{{view url=''}}/images/media/img_14_layout_3.jpg""/>
+        <div class=""custom-item-content"">
+            <div class=""title-1"">New Arrivals</div>
+            <div class=""desc-1"">Simple, comfy and practical</div>
+            <a class=""link-custom"" href=""{{store url=''}}cycling-clothing.html"">Shop now</a>
+        </div>
+    </div>
+    <div class=""item extra-position"">
+        <img src=""{{view url=''}}/images/media/img_15_layout_3.jpg""/>
+        <div class=""custom-item-content"">
+            <div class=""title-1"">The Limited Edition</div>
+            <div class=""desc-1"">Hurry up while stocks last</div>
+            <a class=""link-custom"" href=""{{store url=''}}/bike-tools-transport.html"">Shop now</a>
+        </div>
+    </div>
+    <div class=""item"">
+        <img src=""{{view url=''}}/images/media/img_16_layout_3.jpg""/>
+        <div class=""custom-item-content"">
+            <div class=""title-1"">Special Offer</div>
+            <div class=""desc-1"">Big bike sale now on!</div>
+            <a class=""link-custom"" href=""{{store url=''}}tires-tubes-wheels.html"">Shop now</a>
+        </div>
+    </div>
+</div>
+","2016-12-06 06:13:40","2016-12-06 06:13:40","1"
+"19","block_2_layout_3","block_2_layout_3","<div class=""custom-item-8"">
+    <div class=""item"">
+        <img src=""{{view url=''}}/images/media/img_17_layout_3.jpg""/>
+        <div class=""custom-item-content"">
+            <div class=""title-1"">Road Bikes</div>
+            <div class=""desc-1"">Powerful and easy to use</div>
+            <a class=""link-custom"" href=""{{store url=''}}bike-tools-transport.html"">Shop now</a>
+        </div>
+    </div>
+    <div class=""item extra-position"">
+        <img src=""{{view url=''}}/images/media/img_18_layout_3.jpg""/>
+        <div class=""custom-item-content"">
+            <div class=""title-1"">Women’s bikes</div>
+            <div class=""desc-1"">Helping to inspire women in sport</div>
+            <a class=""link-custom"" href=""{{store url=''}}cycling-clothing.html"">Shop now</a>
+        </div>
+    </div>
+</div>
+","2016-12-06 06:14:29","2016-12-06 06:14:29","1"
+"20","left_custom_block","left_custom_block","<div class=""left-custom block"">
+    <div class=""block-title left-custom-title"">
+        <span class=""icon-plane""></span>
+        <strong>
+            Shipping and Delivery
+        </strong>
+    </div>
+    <div class=""block-content"">
+        Here you can read some details about a nifty little lifecycle of your order's journey from the time you place your order to your new treasures arriving at your doorstep.
+    </div>
+</div>
+
+<div class=""left-custom block"">
+    <div class=""block-title left-custom-title"">
+        <span class=""icon-wallet""></span>
+        <strong>
+            Payment Methods
+        </strong>
+    </div>
+    <div class=""block-content"">
+        It is equally important to choose the solution which offers a specific selection of credit cards that are most popular in the merchants target markets. We take Visa & MasterCard as they are widely used by cyber customers.
+    </div>
+</div>
+
+<div class=""left-custom block"">
+    <div class=""block-title left-custom-title"">
+        <span class=""icon-telephone2""></span>
+        <strong>
+            Contact us
+        </strong>
+    </div>
+    <div class=""block-content"">
+        You can contact us any way that is convenient for you. We are available 24/7 via fax, email or telephone. You can also use a quick contact form or visit our office personally.
+    </div>
+</div>","2016-12-08 23:26:25","2016-12-08 23:51:29","1"
+"21","block_1_layout_4","block_1_layout_4","<div class=""custom-item-9"">
+    <div class=""item"">
+        <div class=""position-relative"">
+            <img src=""{{view url=''}}/images/media/img_19_layout_4.jpg""/>
+
+            <div class=""custom-item-content"">
+                <div class=""title-1"">Dental</div>
+                <div class=""desc-1"">Suppliesnew</div>
+                <a class=""link-custom"" href=""{{store url=''}}dental-supplies-new.html"">Shop now</a>
+            </div>
+        </div>
+    </div>
+    <div class=""item"">
+        <div class=""position-relative"">
+            <img src=""{{view url=''}}/images/media/img_20_layout_4.jpg""/>
+
+            <div class=""custom-item-content"">
+                <div class=""title-1"">MRI</div>
+                <div class=""desc-1"">Machine</div>
+                <a class=""link-custom"" href=""{{store url=''}}combination-deals.html"">Shop now</a>
+            </div>
+        </div>
+    </div>
+</div>
+","2016-12-09 01:34:07","2016-12-09 04:20:18","1"
+"22","block_2_layout_4","block_2_layout_4","<div class=""custom-item-10"">
+    <img src=""{{view url=''}}/images/media/img_21_layout_4.jpg""/>
+    <div class=""custom-item-content"">
+        <div class=""title-1"">New Technologies</div>
+        <div class=""desc-1"">Enhancing the healing process</div>
+        <a class=""link-custom"" href=""{{store url=''}}rehab-supplies.html"">Shop now!</a>
+    </div>
+</div>","2016-12-12 04:24:31","2016-12-12 04:24:31","1"
+"23","block_4_2_layout_2","block_4_2_layout_2","<div class=""row custom-item-indent"">
+    <div class=""col-sm-6"">
+        <div class=""custom-item-11 extra-color"">
+            <img src=""{{view url=''}}/images/media/img_22_lingeria.jpg""/>
+            <div class=""custom-item-content"">
+                <div class=""title-1"">Bras</div>
+                <div class=""desc-1"">New Season Trends!</div>
+                <a class=""link-custom"" href=""{{store url=''}}lingerie.html"">Shop now</a>
+            </div>
+        </div>
+    </div>
+    <div class=""col-sm-6"">
+        <div class=""custom-item-11"">
+            <img src=""{{view url=''}}/images/media/img_23_lingeria.jpg""/>
+            <div class=""custom-item-content"">
+                <div class=""title-1"">Panties</div>
+                <div class=""desc-1"">New Season Trends!</div>
+                <a class=""link-custom"" href=""{{store url=''}}panties.html"">Shop now</a>
+            </div>
+        </div>
+    </div>
+    <div class=""col-sm-6"">
+        <div class=""custom-item-11"">
+            <img src=""{{view url=''}}/images/media/img_24_lingeria.jpg""/>
+            <div class=""custom-item-content"">
+                <div class=""title-1"">Sexy</div>
+                <div class=""desc-1"">New Season Trends!</div>
+                <a class=""link-custom"" href=""{{store url=''}}lingerie.html"">Shop now</a>
+            </div>
+        </div>
+    </div>
+    <div class=""col-sm-6"">
+        <div class=""custom-item-11 extra-color"">
+            <img src=""{{view url=''}}/images/media/img_25_lingeria.jpg""/>
+            <div class=""custom-item-content"">
+                <div class=""title-1"">Sleep</div>
+                <div class=""desc-1"">New Season Trends!</div>
+                <a class=""link-custom"" href=""{{store url=''}}sleep.html"">Shop now</a>
+            </div>
+        </div>
+    </div>
+</div>
+","2016-12-19 00:37:03","2016-12-19 00:52:14","1"
+"24","block_5_2_layout_2","block_5_2_layout_2","<div class=""custom-item-12"">
+    <div class=""custom-item-content"">
+        <div class=""desc-1"">New Season Trends!</div>
+        <div class=""title-1"">Personalized Bra Fittings</div>
+        <a class=""link-custom"" href=""{{store url=''}}lingerie.html"">Shop now!</a>
+    </div>
+    <div class=""custom-img-content"">
+        <img src=""{{view url=''}}/images/media/img_26_lingeria.jpg""/>
+    </div>
+</div>","2016-12-19 03:11:07","2016-12-19 03:11:07","1"
+"25","block_6_2_layout_2","block_6_2_layout_2","<ul class=""custom-item-13 row"">
+    <li class=""col-sm-4"">
+        <div class=""custom-content"">
+            <span class=""icon-telephone""></span>
+            <div class=""title"">+3(800) 2345-6789</div>
+            <div class=""desc-content"">Round-the-clock free hotline (24/7)</div>
+        </div>
+    </li>
+    <li class=""col-sm-4"">
+        <div class=""custom-content"">
+            <span class=""icon-truck""></span>
+            <div class=""title"">Free Shipping</div>
+            <div class=""desc-content"">Shipping cost for any delivery method and order cost <br /> is $49. Free delivery on orders of $99.</div>
+        </div>
+    </li>
+    <li class=""col-sm-4"">
+        <div class=""custom-content"">
+            <span class=""icon-sync""></span>
+            <div class=""title"">Return & Exchange</div>
+            <div class=""desc-content"">You can return or exchange the item <br />within 30 days.</div>
+        </div>
+    </li>
+</ul>","2016-12-19 05:42:47","2016-12-19 06:10:09","1"
+"26","block_4_2_layout_1","block_4_2_layout_1","<div class=""row"">
+    <div class=""col-sm-4"">
+        <div class=""custom-item-19"">
+            <img src=""{{view url=''}}/images/media/img_33_furniture.jpg""/>
+            <div class=""custom-item-content"">
+                <div class=""desc-1"">New Contemporary Solutions</div>
+                <div class=""title-1"">Modern Designs</div>
+            </div>
+            <a class=""link-custom"" href=""{{store url=''}}furniture.html"">Shop now</a>
+        </div>
+    </div>
+    <div class=""col-sm-8"">
+        <div class=""custom-item-20"">
+            <img src=""{{view url=''}}/images/media/img_34_furniture.jpg""/>
+            <div class=""custom-item-content"">
+                <div class=""desc-1"">Big Home Sale!</div>
+                <div class=""title-1"">Save <div>35%<span>off</span></div></div>
+                <a class=""link-custom"" href=""{{store url=''}}bed-bath.html"">Shop now</a>
+            </div>
+        </div>
+        <div class=""row"">
+            <div class=""col-sm-6"">
+                <div class=""custom-item-21"">
+                    <img src=""{{view url=''}}/images/media/img_35_furniture.jpg""/>
+                    <div class=""custom-item-content"">
+                        <div class=""desc-1"">new arrival</div>
+                        <div class=""title-1"">Quality Furniture</div>
+                        <a class=""link-custom"" href=""{{store url=''}}bed-bath.html"">Shop now</a>
+                    </div>
+                </div>
+            </div>
+            <div class=""col-sm-6"">
+                <div class=""custom-item-22"">
+                    <img src=""{{view url=''}}/images/media/img_36_furniture.png""/>
+                    <div class=""custom-item-content"">
+                        <div class=""desc-1"">Add a sense of cosiness to your living space!</div>
+                        <div class=""title-1"">Style and Comfort</div>
+                        <a class=""link-custom"" href=""{{store url=''}}furniture.html"">Shop now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+","2016-12-20 22:49:11","2016-12-23 04:35:17","1"
+"27","block_3_2_layout_3","block_3_2_layout_3","<div class=""custom-item-14"">
+    <div class=""custom-item-content"">
+        <div class=""title-1"">Buy & Ride</div>
+        <div class=""desc-1"">Meeting the needs of each cyclist</div>
+        <a class=""link-custom"" href=""{{store url=''}}tires-tubes-wheels.html"">Shop now!</a>
+    </div>
+    <div class=""custom-img-content"">
+        <img src=""{{view url=''}}/images/media/img_27_bike.jpg""/>
+    </div>
+</div>","2016-12-21 07:37:43","2016-12-21 07:37:43","1"
+"28","block_4_2_layout_3","block_4_2_layout_3","<div class=""custom-item-15"">
+    <div class=""custom-item-content"">
+        <div class=""title-1"">Women’s Bikes</div>
+        <div class=""desc-1"">Helping to inspire women in sport</div>
+        <a class=""link-custom"" href=""{{store url=''}}tires-tubes-wheels.html"">Shop now!</a>
+    </div>
+    <div class=""custom-img-content"">
+        <img src=""{{view url=''}}/images/media/img_28_bike.jpg""/>
+    </div>
+</div>","2016-12-21 07:42:15","2016-12-21 23:28:08","1"
+"29","block_3_2_layout_4","block_3_2_layout_4","<div class=""row-main-custom"">
+    <div class=""col-main-custom col-m-1 custom-item-16"">
+        <div class=""item"">
+            <div class=""position-relative"">
+                <img src=""{{view url=''}}/images/media/img_29_medical.jpg""/>
+
+                <div class=""custom-item-content"">
+                    <div class=""title-1"">MRI</div>
+                    <div class=""desc-1"">Machine</div>
+                    <a class=""link-custom"" href=""{{store url=''}}combination-deals.html"">Shop now</a>
+                </div>
+            </div>
+        </div>
+        <div class=""item"">
+            <div class=""position-relative"">
+                <img src=""{{view url=''}}/images/media/img_30_medical.jpg""/>
+                <div class=""custom-item-content"">
+                    <div class=""title-1"">Dental</div>
+                    <div class=""desc-1"">Suppliesnew</div>
+                    <a class=""link-custom"" href=""{{store url=''}}dental-supplies-new.html"">Shop now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=""col-main-custom col-m-2"">
+        <div class=""custom-item-17"">
+            <img src=""{{view url=''}}/images/media/img_31_medical.jpg""/>
+            <div class=""custom-item-content"">
+                <div class=""title-1"">ultrasound</div>
+                <div class=""desc-1"">Machine</div>
+                <a class=""link-custom"" href=""{{store url=''}}rehab-supplies.html"">Shop now!</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class=""custom-item-18"">
+    <img src=""{{view url=''}}/images/media/img_32_medical.jpg""/>
+    <div class=""custom-item-content"">
+        <div class=""title-1"">New Technologies</div>
+        <div class=""desc-1"">Enhancing the healing process</div>
+        <a class=""link-custom"" href=""{{store url=''}}dental-supplies-new.html"">Shop now!</a>
+    </div>
+</div>","2016-12-22 05:51:30","2016-12-22 23:26:43","1"
+"30","left_custom_block_lt2","left_custom_block_lt2","<div class=""left-custom block block-bg-custom"">
+    <div class=""block-title left-custom-title"">
+        <span class=""icon-plane""></span>
+        <strong>
+            Shipping and Delivery
+        </strong>
+    </div>
+    <div class=""block-content"">
+        Here you can read some details about a nifty little lifecycle of your order's journey from the time you place your order to your new treasures arriving at your doorstep.
+    </div>
+</div>
+
+<div class=""left-custom block block-border-custom"">
+    <div class=""block-title left-custom-title"">
+        <span class=""icon-wallet""></span>
+        <strong>
+            Payment Methods
+        </strong>
+    </div>
+    <div class=""block-content"">
+        It is equally important to choose the solution which offers a specific selection of credit cards that are most popular in the merchants target markets. We take Visa & MasterCard as they are widely used by cyber customers.
+    </div>
+</div>
+
+<div class=""left-custom block block-bg_2-custom"">
+    <div class=""block-title left-custom-title"">
+        <span class=""icon-telephone2""></span>
+        <strong>
+            Contact us
+        </strong>
+    </div>
+    <div class=""block-content"">
+        You can contact us any way that is convenient for you. We are available 24/7 via fax, email or telephone. You can also use a quick contact form or visit our office personally.
+    </div>
+</div>","2016-12-22 07:14:13","2016-12-22 07:14:13","1"
+"31","footer_block_3","footer_block_3","<div class=""footer-block-3 footer-col"">
+    <h4 class=""hidden-title"">Information</h4>
+    <div class=""footer-col-content"">
+        <div class=""footer-logo"">
+            <div class=""logoAfter""></div>
+        </div>
+
+        <div class=""desc-footer"">
+            We are an anyone’s ultimate destination for getting this perfect kitchen table, cozy armchair or a beautiful and comfy king sized bed! All in all, whatever home furniture you’ll be looking for, look no further!
+        </div>
+        <ul class=""list-icon"">
+            <li><a target=""_blank"" href=""//www.facebook.com/TemplateMonster/""><i class=""fa fa-facebook""></i></a></li>
+            <li><a target=""_blank"" href=""//twitter.com/TemplateMonster""><i class=""fa fa-twitter""></i></a></li>
+            <li><a target=""_blank"" href=""//plus.google.com/+TemplateMonster""><i class=""fa fa-google-plus""></i></a></li>
+            <li><a target=""_blank"" href=""//www.instagram.com/template_monster/""><i class=""fa fa-instagram""></i></a></li>
+            <li><a target=""_blank"" href=""//www.pinterest.com/templatemonster/""><i class=""fa fa-pinterest""></i></a></li>
+        </ul>
+    </div>
+</div>
+","2016-12-24 04:27:42","2016-12-24 04:29:21","1"
+"32","block_5_2_layout_1","block_5_2_layout_1","<div class=""custom-item-23"">
+    <div class=""title-static-block"">Welcome to MAGETIQUE, timeless modern furniture and decor.</div>
+    <ul class=""row"">
+        <li class=""col-sm-6"">
+            <div class=""custom-content"">
+                <p>
+                    Magetique embraces all of our design and technical knowledge, which translates into the most advanced Magento 2 experience. It includes a myriad of marketing, design and administration tools. No other theme on the market offers this much functionality right off the bat - you're getting over 20 extensions that facilitate your business needs. From simple upsell modules, like Smart Product Labels and Featured Products, to advanced design functions, like Parallax & Background Video.
+                </p>
+                Sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+        </li>
+        <li class=""col-sm-6"">
+            <div class=""custom-content"">
+                Easily edit pages, page blocks and various on-screen elements to provide a tailored shopping experience for your clients. You don't need any CSS knowledge or programming skills to do that. You get all of this eCommerce goodness for free. The package includes 5 layouts that were carefully crafted to fit a variety of niches. They are easily installed and managed with an intuitive interface and detailed documentation.
+            </div>
+        </li>
+    </ul>
+</div>","2017-01-13 05:38:53","2017-03-03 09:00:17","1"
+"33","block_5_3_layout_3","block_5_3_layout_3","<div class=""custom-item-7 custom-item-24"">
+    <div class=""item"">
+        <img src=""{{view url=''}}/images/media/img_14_layout_3.jpg""/>
+        <div class=""custom-item-content"">
+            <div class=""title-1"">New Arrivals</div>
+            <div class=""desc-1"">Simple, comfy and practical</div>
+            <a class=""link-custom"" href=""{{store url=''}}cycling-clothing.html"">Shop now</a>
+        </div>
+    </div>
+    <div class=""item extra-position"">
+        <img src=""{{view url=''}}/images/media/img_15_layout_3.jpg""/>
+        <div class=""custom-item-content"">
+            <div class=""title-1"">The Limited Edition</div>
+            <div class=""desc-1"">Hurry up while stocks last</div>
+            <a class=""link-custom"" href=""{{store url=''}}/bike-tools-transport.html"">Shop now</a>
+        </div>
+    </div>
+    <div class=""item"">
+        <img src=""{{view url=''}}/images/media/img_16_layout_3.jpg""/>
+        <div class=""custom-item-content"">
+            <div class=""title-1"">Special Offer</div>
+            <div class=""desc-1"">Big bike sale now on!</div>
+            <a class=""link-custom"" href=""{{store url=''}}tires-tubes-wheels.html"">Shop now</a>
+        </div>
+    </div>
+</div>
+","2017-01-13 05:53:07","2017-01-13 05:53:07","1"
+"34","block_6_3_layout_3","block_6_3_layout_3","<div class=""custom-item-8"">
+    <div class=""item"">
+        <img src=""{{view url=''}}/images/media/img_17_layout_3.jpg""/>
+        <div class=""custom-item-content"">
+            <div class=""title-1"">Road Bikes</div>
+            <div class=""desc-1"">Powerful and easy to use</div>
+            <a class=""link-custom"" href=""{{store url=''}}bike-tools-transport.html"">Shop now</a>
+        </div>
+    </div>
+    <div class=""item extra-position"">
+        <img src=""{{view url=''}}/images/media/img_18_layout_3.jpg""/>
+        <div class=""custom-item-content"">
+            <div class=""title-1"">Women’s bikes</div>
+            <div class=""desc-1"">Helping to inspire women in sport</div>
+            <a class=""link-custom"" href=""{{store url=''}}cycling-clothing.html"">Shop now</a>
+        </div>
+    </div>
+</div>
+","2017-01-13 05:53:32","2017-01-13 10:19:44","1"
+"35","block_4_3_layout_4","block_4_3_layout_4","<div class=""custom-item-25"">
+    <div class=""item"">
+        <a class=""position-relative"" href=""{{store url=''}}dental-supplies-new.html"">
+            <img src=""{{view url=''}}/images/media/img_37_medical.jpg""/>
+
+            <div class=""custom-item-content"">
+                <div class=""title-1"">Dental</div>
+                <div class=""desc-1"">Supplies New</div>
+            </div>
+        </a>
+    </div>
+    <div class=""item"">
+        <a class=""position-relative"" href=""{{store url=''}}combination-deals.html"">
+            <img src=""{{view url=''}}/images/media/img_38_medical.jpg""/>
+            <div class=""custom-item-content"">
+                <div class=""title-1"">MRI</div>
+                <div class=""desc-1"">Machine</div>
+            </div>
+        </a>
+    </div>
+</div>
+","2017-01-13 10:10:27","2017-01-13 10:10:27","1"
+"36","block_5_3_layout_4","block_5_3_layout_4","<div class=""row custom-item-26"">
+    <div class=""col-sm-4"">
+        <div class=""block-bg-custom"">
+            <div class=""block-title left-custom-title"">
+                <span class=""icon-plane""></span>
+                <strong>
+                    Shipping and Delivery
+                </strong>
+            </div>
+            <div class=""block-content"">
+                Here you can read some details about a nifty little lifecycle of your order's journey from the time you place your order to your new treasures arriving at your doorstep.
+            </div>
+        </div>
+    </div>
+
+    <div class=""col-sm-4"">
+        <div class=""block-border-custom"">
+            <div class=""block-title left-custom-title"">
+                <span class=""icon-wallet""></span>
+                <strong>
+                    Payment Methods
+                </strong>
+            </div>
+            <div class=""block-content"">
+                It is equally important to choose the solution which offers a specific selection of credit cards that are most popular in the merchants target markets. We take Visa & MasterCard as they are widely used by cyber customers.
+            </div>
+        </div>
+    </div>
+
+    <div class=""col-sm-4"">
+        <div class=""block-bg_2-custom"">
+            <div class=""block-title left-custom-title"">
+                <span class=""icon-telephone2""></span>
+                <strong>
+                    +1(234) 567-8901
+                </strong>
+            </div>
+            <div class=""block-content"">
+                You can contact us any way that is convenient for you. We are available 24/7 via fax, email or telephone. You can also use a quick contact form or visit our office personally.
+            </div>
+        </div>
+    </div>
+</div>","2017-01-13 10:10:56","2017-01-13 10:10:56","1"
+"37","footer_block_4","footer_block_4","<div class=""footer-block-4 footer-col"">
+    <h4 class=""hidden-title"">Information</h4>
+    <div class=""footer-col-content"">
+        <div class=""footer-logo"">
+            <div class=""logoAfter""></div>
+        </div>
+        <ul class=""list-icon"">
+            <li><a target=""_blank"" href=""//www.facebook.com/TemplateMonster/""><i class=""fa fa-facebook""></i></a></li>
+            <li><a target=""_blank"" href=""//twitter.com/TemplateMonster""><i class=""fa fa-twitter""></i></a></li>
+            <li><a target=""_blank"" href=""//plus.google.com/+TemplateMonster""><i class=""fa fa-google-plus""></i></a></li>
+            <li><a target=""_blank"" href=""//www.instagram.com/template_monster/""><i class=""fa fa-instagram""></i></a></li>
+            <li><a target=""_blank"" href=""//www.pinterest.com/templatemonster/""><i class=""fa fa-pinterest""></i></a></li>
+        </ul>
+    </div>
+</div>","2017-01-13 12:03:36","2017-01-13 12:03:36","1"
+"38","block_1_1_layout_5","block_1_1_layout_5","<div class=""custom-item-27"">
+    <div class=""item"">
+        <img src=""{{view url=''}}/images/media/img_40_spare.jpg""/>
+        <div class=""custom-item-content"">
+            <div class=""title-1"">Suspension <span>Parts</span></div>
+            <div class=""desc-1"">20 % off</div>
+            <a class=""link-custom"" href=""{{store url=''}}repair-parts.html"">Shop now</a>
+        </div>
+    </div>
+    <div class=""item item-extra"">
+        <img src=""{{view url=''}}/images/media/img_41_spare.jpg""/>
+        <div class=""custom-item-content"">
+            <div class=""title-1"">AUTO <span>LIGHTING</span></div>
+            <a class=""link-custom"" href=""{{store url=''}}exterior.html"">Shop now</a>
+        </div>
+    </div>
+    <div class=""item item-extra-2"">
+        <img src=""{{view url=''}}/images/media/img_42_spare.jpg""/>
+        <div class=""custom-item-content"">
+            <div class=""title-1"">CAR <span>SPOILERS</span></div>
+            <div class=""desc-1"">50 % off</div>
+            <a class=""link-custom"" href=""{{store url=''}}repair-parts.html"">Shop now</a>
+        </div>
+    </div>
+</div>","2017-01-19 04:48:54","2017-01-20 05:04:13","1"
+"39","block_1_2_layout_5","block_1_2_layout_5","<div class=""custom-item-28"">
+    <div class=""item"">
+        <img src=""{{view url=''}}/images/media/img_40_spare.jpg""/>
+        <div class=""custom-item-content"">
+            <div class=""title-1"">Suspension <span>Parts</span></div>
+            <div class=""desc-1"">20 % off</div>
+            <a class=""link-custom"" href=""{{store url=''}}repair-parts.html"">Shop now</a>
+        </div>
+    </div>
+    <div class=""item item-extra-2"">
+        <img src=""{{view url=''}}/images/media/img_42_spare.jpg""/>
+        <div class=""custom-item-content"">
+            <div class=""title-1"">CAR <span>SPOILERS</span></div>
+            <div class=""desc-1"">50 % off</div>
+            <a class=""link-custom"" href=""{{store url=''}}repair-parts.html"">Shop now</a>
+        </div>
+    </div>
+    <div class=""item item-extra"">
+        <img src=""{{view url=''}}/images/media/img_41_spare.jpg""/>
+        <div class=""custom-item-content"">
+            <div class=""title-1"">AUTO <span>LIGHTING</span></div>
+            <a class=""link-custom"" href=""{{store url=''}}exterior.html"">Shop now</a>
+        </div>
+    </div>
+</div>","2017-01-23 10:32:44","2017-01-23 10:43:23","1"
+"40","block_2_2_layout_5","block_2_2_layout_5","<ul class=""custom-item-13 custom-item-29 row"">
+    <li class=""col-sm-4"">
+        <div class=""custom-content"">
+            <span class=""icon-telephone""></span>
+            <div class=""title"">+3(800) 2345-6789</div>
+            <div class=""desc-content"">Round-the-clock free hotline (24/7)</div>
+        </div>
+    </li>
+    <li class=""col-sm-4"">
+        <div class=""custom-content"">
+            <span class=""icon-truck""></span>
+            <div class=""title"">Free Shipping</div>
+            <div class=""desc-content"">Shipping cost for any delivery method and order cost <br /> is $49. Free delivery on orders of $99.</div>
+        </div>
+    </li>
+    <li class=""col-sm-4"">
+        <div class=""custom-content"">
+            <span class=""icon-sync""></span>
+            <div class=""title"">Return & Exchange</div>
+            <div class=""desc-content"">You can return or exchange the item <br />within 30 days.</div>
+        </div>
+    </li>
+</ul>","2017-01-23 11:14:51","2017-01-23 11:18:14","1"
+"41","AMP Footer Links","amp_footer_links","<ul><li><a href=""{{store url='about-us'}}"">About Us</a></li><li><a href=""{{store url='contact'}}"">Contact Us</a></li><li><a href=""{{store url='customer-service'}}"">Customer Service</a></li><li><a href=""{{store url='privacy-policy-cookie-restriction-mode'}}"">Privacy Policy</a></li></ul>","2017-12-21 09:12:07","2017-12-21 09:12:07","1"

@@ -1,0 +1,24 @@
+<?php
+	$logoWidth = '190';
+	$logoHeight = '60';
+	$storeName = $block->getThemeName() ? $block->getThemeName() : $block->getLogoAlt();
+	$helperCart = $this->helper('Magento\Checkout\Helper\Cart');
+	$_helperAmp = $this->helper('Zemez\Amp\Helper\Data');
+?>
+
+<label class="icon mobile-menu" for="mitem-amp-navigation"></label>
+<div class="amp-logo-container">
+	<a class="amp-logo" href="<?php echo $_helperAmp->getCanonicalUrl($block->getUrl('')); ?>" title="<?php echo $storeName ?>">
+	    <amp-img
+	    	layout="responsive"
+	        width="<?php echo $logoWidth ?>"
+	        height="<?php echo $logoHeight ?>"
+			src="<?php echo $block->getLogoSrc() ?>"
+	        alt="<?php echo $block->getLogoAlt() ?>"
+	    ></amp-img>
+	</a>
+</div>
+<div class="right-top-btn">
+	<?php echo $block->getChildHtml('amp-authorization-link-login') ?>
+	<a href="<?php echo $helperCart->getCartUrl() ?>" class="icon cart"></a>
+</div>

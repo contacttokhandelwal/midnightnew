@@ -1,0 +1,43 @@
+<?php
+/**
+ * Category layered navigation
+ *
+ * @var $block \Magento\LayeredNavigation\Block\Navigation
+ */
+?>
+
+<?php if ($block->canShowBlock()): ?>
+    <div class="block filter">
+        <div class="block-title filter-title">
+            <strong><?php echo __('Shopping Options') ?></strong>
+        </div>
+        <div class="block-content filter-content">
+            <?php echo $block->getChildHtml(' state') ?>
+            <?php if ($block->getLayer()->getState()->getFilters()): ?>
+                <div class="block-actions filter-actions">
+                    <a href="<?php echo $block->getClearUrl() ?>" class="action clear filter-clear">
+                        <span><?php echo __('Clear All') ?></span>
+                    </a>
+                </div>
+            <?php endif; ?>
+
+            <input type="checkbox" id="filter-items"/>
+            <label for="filter-items" class="block-subtitle filter-subtitle">
+                <?php echo __('Shop By') ?>
+            </label>
+            <ul class="filter-options" id="narrow-by-list">
+                <?php foreach ($block->getFilters() as $key => $filter): ?>
+                    <?php if ($filter->getItemsCount()): ?>
+                        <li>
+                            <input type="checkbox" id="filter-item-<?php echo $key ?>"/>
+                            <label for="filter-item-<?php echo $key ?>" class="filter-options-title">
+                                <?php echo $block->escapeHtml(__($filter->getName())) ?>
+                            </label>
+                            <?php echo $block->getChildBlock('render')->render($filter); ?>
+                        </li>
+                    <?php endif; ?>
+                <?php endforeach; ?>
+            </ul>
+        </div>
+    </div>
+<?php endif; ?>

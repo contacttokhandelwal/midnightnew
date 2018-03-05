@@ -1,0 +1,14 @@
+{
+    "name": "zemez/amp",
+    "description": "amp page for magento",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Zemez\\Amp\\": ""
+        }
+    }
+}
