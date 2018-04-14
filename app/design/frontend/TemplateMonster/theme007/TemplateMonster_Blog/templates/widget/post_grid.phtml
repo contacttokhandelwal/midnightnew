@@ -16,9 +16,9 @@ $itemWidth = $block->getPostAmountPerRow() ? sprintf('flex-basis: %1$.2f%%; -web
     </style>
 <?php if ($posts = $this->getPosts()) : ?>
     <div class="block widget blog-posts <?php if (!$block->isEnabledCarousel()): ?> disable-carousel<?php endif; ?>">
-        <h1 class="page-title">
+        <h3 class="page-title">
             <strong role="heading" aria-level="2"><?php echo __($block->getTitle()) ?></strong>
-        </h1>
+        </h3>
         <div class="block-content">
             <div class="post-items grid"<?php if ($block->isEnabledCarousel()): ?> data-mage-init='{"blogCarouselChild": {"items": "<?php /* @escapeNotVerified */ echo $block->getPostAmountPerView(); ?>"}}' <?php endif; ?>>
                 <?php foreach ($posts as $post): ?>

@@ -396,7 +396,7 @@ class PaymentMethod extends \Magento\Payment\Model\Method\AbstractMethod
 		if(!empty($pumkey) && !empty($pumsalt) && empty($cvurl) && empty($caccess) && empty($csecret))
 		{
 			$this->adnlinfo = 'payumoney';
-			$this->title = 'PayU Money';
+			$this->title = 'Pay Using Credit Card/ Debit Card (PayU Money)';
 			return $this->adnlinfo;
 		}
 		elseif(empty($pumkey) && empty($pumsalt) && !empty($cvurl) && !empty($caccess) && !empty($csecret))

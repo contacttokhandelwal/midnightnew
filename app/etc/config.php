@@ -39,7 +39,6 @@ return array (
     'Magento_Sales' => 1,
     'Magento_Integration' => 1,
     'Magento_CustomerImportExport' => 1,
-    'Magento_DataMigrationTool' => 1,
     'Magento_Deploy' => 1,
     'Magento_Developer' => 1,
     'Magento_Dhl' => 1,
@@ -146,6 +145,8 @@ return array (
     'TemplateMonster_SocialLogin' => 1,
     'TemplateMonster_SocialSharing' => 1,
     'TemplateMonster_LayoutSwitcher' => 1,
+    'WeltPixel_Backend' => 1,
+    'WeltPixel_GoogleTagManager' => 1,
     'Zemez_Amp' => 1,
   ),
 );
